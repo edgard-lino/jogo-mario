@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Super Mario World";
+    src: url(/fontes/SuperMarioWorld.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Super Mario World";
+    font-size: 24px;
+}
+
+#cenario {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/imagens/cenario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ceu {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/imagens/cenarioceu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+#personagem {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(/imagens/marioParadoLadoDireito.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    bottom: 11vh;
+    left: 0;
+}
+
+#inimigo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(/imagens/inimigoLadoEsquerdo.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    bottom: 11vh;
+    right: 0;
+}
+
+#menu-do-jogo {
+    position: absolute;
+    width: 900px;
+    height: 150px;
+    background-image: url(/imagens/menuDoJogo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    top: 20px;
+}
+
+#bloco {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(/imagens/bloco.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    right: 30%;
+}
+
+#tempo {
+    position: absolute;
+    top: 80px;
+    right: 282px;
+    color: #ffdf73;
+}
+
+#vidas {
+    position: absolute;
+    top: 80px;
+    right: 785px;
+    color: white;
+}
+
+#moedas {
+    position: absolute;
+    top: 49px;
+    right: 88px;
+    color: white;
+}
+
+#pontos {
+    position: absolute;
+    top: 80px;
+    right: 580px;
+    color: white;
+}
